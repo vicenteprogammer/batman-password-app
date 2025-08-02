@@ -1,5 +1,5 @@
 # batman-password-app
-**Um app que com temática do Batman para gerar a sua senha como a batcaverna, bem confidencial.**
+**Um app que conta com a temática do Batman para gerar a sua senha como a batcaverna, bem confidencial.**
 
 ## __Tecnologias usadas__
 ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
