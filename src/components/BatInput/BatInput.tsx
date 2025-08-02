@@ -3,8 +3,12 @@ import { TextInput, View } from 'react-native';
 
 import { styles } from './styles';
 
-export function BatInput() {
+interface PassType{
+  pass: string
+}
+
+export function BatInput(props: PassType ) {
   return (
-    <TextInput placeholder='PASS' style={styles.input}/>
+    <TextInput placeholder='Click for Generate' value={props.pass} style={styles.input}/>
   );
 }

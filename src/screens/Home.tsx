@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View } from 'react-native';
 import { StatusBar } from 'expo-status-bar'
 import { BatLogo } from '../components/BatLogo/BatLogo';
@@ -14,7 +14,7 @@ export function Home() {
         </View>
 
         <View style={styles.inputContainer} >
-          <BatInput/>
+          
           <BatButton/>
         </View>
 
