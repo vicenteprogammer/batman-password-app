@@ -1,11 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { BatLogo } from './src/components/BatLogo/BatLogo';
 
 export default function App() {
   return (
+    
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+
+      <BatLogo/>
       <StatusBar style="auto" />
+      
     </View>
   );
 }
