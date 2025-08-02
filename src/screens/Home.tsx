@@ -3,6 +3,8 @@ import { View } from 'react-native';
 import { StatusBar } from 'expo-status-bar'
 import { BatLogo } from '../components/BatLogo/BatLogo';
 import { styles } from './styles';
+import { BatInput } from '../components/BatInput/BatInput';
+import { BatButton } from '../components/BatButton/BatButton';
 
 export function Home() {
   return (
@@ -10,6 +12,14 @@ export function Home() {
         <View style={styles.logoContainer}>
           <BatLogo/>
         </View>
+
+        <View style={styles.inputContainer} >
+          <BatInput/>
+          <BatButton/>
+        </View>
+
+
+
         <StatusBar style='auto'/>
     </View>
   );

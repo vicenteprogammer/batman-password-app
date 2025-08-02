@@ -15,5 +15,11 @@ export const styles = StyleSheet.create({
     padding: 30,
     marginBottom: 90,
     backgroundColor: '#4D4D4D'
+  },
+  inputContainer:{
+    flexDirection:'column',
+    width:'60%',
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 });
